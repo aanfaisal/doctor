@@ -5,7 +5,7 @@
 		<div class="contact-caption clearfix">
 				
   	<h1><center style="color:white">CEK TUBERKULOSIS</center></h1>
-	<form action="mining.php" method="post">
+	<form action="displaydata.php" method="post">
 	<div class="container col-md-4">
 		<div class="container" style="color:white">
 		<h3><p>Jenis Kelamin</p></h3>
@@ -83,7 +83,7 @@
 
 		<center>
 			<div>
-				<button type="submit" name="submit" class="btn btn-success btn-lg">P r e d i k s i </button>
+				<button type="submit" name="submit" class="btn btn-success btn-lg">T a m b a h D a t a</button>
 			</div>
 		</center>
 		<br>
@@ -93,5 +93,3 @@
 	</div>
 </div>
 </section>
-
-

@@ -68,12 +68,9 @@
 	============================================================= -->
 	<!--Import jQuery before materialize.js-->
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-	
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 	<script src="js/gmaps.js"></script>
 	<script src="js/smoothscroll.js"></script>
-	<script src="js/bootstrap.min.js"></script>
 	<script src="js/custom.js"></script>
-
-</body>
-</html>

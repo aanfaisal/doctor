@@ -190,6 +190,7 @@ include 'fungsi.php';
 
 
 ?>
+
 <!-- mining section -->
 	<section class="" style="" id="edukasi">
 		<div class="container">
@@ -276,15 +277,16 @@ include 'fungsi.php';
 	
 	
 	<?php
-	if ($jumdat_X = $jumdat_Y = $jumdat_Z) {
-    	echo "Dari perhitungan diatas,Nilai probabilitas terbesar diperoleh pada kelas “Paru Kuat” dengan nilai $jumdat_X dan dapat disimpulkan identifikasi tuberkulosis sejak dini mengacu pada “Paru Kuat”";
-	}
-	else if ($jumdat_X = $jumdat_Y = $jumdat_Z) {
-		echo "Dari perhitungan diatas,Nilai probabilitas terbesar diperoleh pada kelas “Paru Ringan” dengan nilai $jumdat_Y dan dapat disimpulkan identifikasi tuberkulosis sejak dini mengacu pada “Paru Ringan”";
-	}
-	else if ($jumdat_X = $jumdat_Y = $jumdat_Z) {
-		echo "Dari perhitungan diatas,Nilai probabilitas terbesar diperoleh pada kelas “Negatif” dengan nilai $jumdat_Z dan dapat disimpulkan identifikasi tuberkulosis sejak dini mengacu pada “Negatif”";
-	}
+		if ($hasil_X > $hasil_Y && $hasil_X > $hasil_Z) {
+	    	echo "Dari perhitungan diatas,Nilai probabilitas terbesar diperoleh pada kelas “Paru Kuat” dengan nilai $hasil_X dan dapat disimpulkan identifikasi tuberkulosis sejak dini mengacu pada “Paru Kuat”";
+		}
+		else if ($hasil_Y > $hasil_X && $hasil_Y > $hasil_Z) {
+			echo "Dari perhitungan diatas,Nilai probabilitas terbesar diperoleh pada kelas “Paru Ringan” dengan nilai $hasil_Y dan dapat disimpulkan identifikasi tuberkulosis sejak dini mengacu pada “Paru Ringan”";
+		}
+		else if ($hasil_Z > $hasil_X && $hasil_Z > $hasil_Y) {
+			echo "Dari perhitungan diatas,Nilai probabilitas terbesar diperoleh pada kelas “Negatif” dengan nilai $hasil_Z dan dapat disimpulkan identifikasi tuberkulosis sejak dini mengacu pada “Negatif”";
+		}
+	
 	?>
 
 			</div>
